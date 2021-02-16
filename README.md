@@ -3,7 +3,7 @@ A Jupyter Notebook that uses a TensorFlow LinearClassifier model on the Titanic 
 information about the passengers' gender, class, age, and whether they survived amongst other data. Given a set of training data and a set of testing data, the goal is to derive feature columns from the given information and train our model to order to predict whether the passengers in the test data set survived. 
 
 ## Project Status
-This project is based off a TensorFlow tutorial, but expands on that tutorial by creating crossed feature columns and tuning the epoch parameter, in order to find the number of epochs that maximizes the accuracy of our model. I plan to add a Keras Optimizer in the LinearClassifier in order to configure the learning rate, and find the rate that mizimized the accuracy of the model, like I have done for the number of epochs. 
+This project is based off a TensorFlow tutorial, but expands on that tutorial by creating crossed feature columns and tuning the epoch parameter, in order to find the number of epochs that maximizes the accuracy of our model. I plan to add a Keras Optimizer in the LinearClassifier in order to configure the learning rate, and find the rate that minimized the accuracy of the model, like I have done for the number of epochs. 
 
 ## Requirements 
 - Python3 
